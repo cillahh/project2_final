@@ -1,0 +1,63 @@
+body {
+    font-family: 'Black Han Sans',;
+    background-color: #212223;
+    color: #e0eaf2;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 36px;
+}
+#title {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: text-bottom;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table {
+    font-size: 25px;
+    height: 600px;
+    border-collapse: collapse;
+    /* border-collapse: separate;
+    border-spacing: 0px 10px; */
+}
+th,td {
+    /* text-align: center; */
+    vertical-align: middle !important;
+
+}
+tbody>tr:hover {
+    color: #212223;
+    background-color: #e0eaf2;
+}
+#add {
+    display: flex;
+    justify-content:end;
+}
+#pagination {
+    display: flex;
+    justify-content: center;
+}
+ul>li>a {
+    color: #212223 !important;
+}
+.selected {
+    background-color: #212223;
+    color: #e0eaf2;
+}
+a:link {
+    color: #e0eaf2;
+}
+#buttons {
+    display: flex;
+    justify-content:end;
+}
+#details {
+    padding-left: 50px;
+    padding-right: 30px;
+}

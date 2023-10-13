@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./my.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
+    <script>
+        function submit() {
+            alert("과목이 추가되었습니다.");
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <div>
+                <h1><span class="glyphicon glyphicon-bookmark"></span> Edit Course</h1>
+            </div>
+        </div>
+        <hr><br><br>
+        <div class="">
+            <form action="" onsubmit="return confirm('과목이 수정하시겠습니까?')">
+                <div class="form-group">
+                    <label for="sel1">이수구분:</label>
+                    <select class="form-control" id="sel1">
+                      <option>선택하세요</option>
+                      <option selected>전공필수</option>
+                      <option>전공선택</option>
+                      <option>전공선택필수</option>
+                      <option>교양필수</option>
+                      <option>교양선택</option>
+                      <option>교양선택필수</option>
+                    </select>
+                  </div>
+                <div class="form-group">
+                  <label for="code">과목코드:</label>
+                  <input type="" class="form-control" id="email" required value="ECE20008">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">과목명:</label>
+                  <input class="form-control" required value="실전프로젝트">
+                </div>
+                <div class="form-group">
+                    <label for="sel1">영어비율:</label>
+                    <select class="form-control" id="sel0">
+                        <option>선택하세요</option>
+                      <option selected>0%</option>
+                      <option>50%</option>
+                      <option>100%</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sel1">학점:</label>
+                    <select class="form-control" id="sel1">
+                        <option>선택하세요</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option selected>3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sel1">분반:</label>
+                    <select class="form-control" id="sel2">
+                        <option>선택하세요</option>
+                      <option>1분반</option>
+                      <option>2분반</option>
+                      <option selected>3분반</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pwd">담당교수:</label>
+                    <input class="form-control" required value="장소연">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">수업시간:</label>
+                    <input  class="form-control" value="화6,화7,금6">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">강의실:</label>
+                    <input class="form-control" value="NTH 313">
+                </div>
+                <label for="sel1">성적유형:</label>
+                <div class="radio-inline">
+                    <label><input type="radio" name="optradio">A+/F</label>
+                </div>
+                <div class="radio-inline">
+                    <label><input type="radio" name="optradio" checked>P/F</label>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-default" onclick="">저장</button>
+                </div>
+                
+              </form>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
